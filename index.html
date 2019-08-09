@@ -4,35 +4,45 @@
     <head>
         <!--This is needed for bootstrap styling-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="animate.css">
     </head>
     <body>
         <div>
-            <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+            <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top animated fadeIn" style="background-color: #415A77">
                 <!--This is the logo for the website in the top left-->
-                <a class="navbar-brand" href="#">Chris Chan</a>
+                <a class="navbar-brand animated fadeIn" href="#">Chris Chan</a>
 
                 <!--Collapsible Button that will collapse the navbar-->
                 <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                     aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-                    <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                    </li>
-                </ul>
+                    <ul class="navbar-nav mr-auto mt-2 mt-md-0 nav justify-content-end">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#" data-toggle="collapse" data-target=".navbar-collapse.show">Who dat? <span class="sr-only">(current)</span></a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">What he do?</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">This Website</a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </div>
-        <div class="jumbotron text-center" style="padding-top: 5em;">
+        
+        <div class="jumbotron text-center animated fadeIn bg-light" style="padding-top: 5em;">
             <h1 class="display-3">Welcome</h1>
-            <p class="lead">This is my personal webpage</p>
-            <hr class="my-2">
-            <p>This site is still under construction</p>
-            
+            <p class="lead">This is my personal webpage that hosts my side projects</p>
+        </div>
+
+        <div class="container animated fadeIn" >
+            <div class="card" style="background-color: #ffffff">
+                <div class="card-body">
+                    <h3 class="card-title">Allow me to introduce myself</h4>
+                    <p class="card-text"></p>
+                </div>
+            </div>
         </div>
 
         <!--Scripts are placed in order for Bootstrap-->  
