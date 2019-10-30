@@ -1,0 +1,23 @@
+div.card {
+    background-color: white;
+    border: 1px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px gray;
+}
+
+div nav{
+    background-color: white; 
+}
+
+div nav button.navbar-toggler.hidden-lg-up{
+    border: 0px;
+}
+
+.dropdown-menu.show{
+    border:0px;
+}
+
+.jumbotron{
+    background-color: white;
+    padding-top: 5em;
+}
