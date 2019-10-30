@@ -1378,12 +1378,21 @@
   animation-name: fadeIn;
 }
 
-nav, div.jumbotron {
-    animation-delay: 1s;
+.navbar-collapse.animated.fadeIn.collapse.show {
+  -webkit-animation-name: fadeIn;
+  animation-name: none;
+}
+
+a.navbar-brand, .card.projectCard{
+   animation-delay: 1s;
+}
+
+.collapse.navbar-collapse, .navbar-toggler, div.jumbotron {
+    animation-delay: 2s;
 }
 
 div.container{
-    animation-delay: 2s;
+    animation-delay: 3s;
 }
 
 @-webkit-keyframes fadeInDown {
