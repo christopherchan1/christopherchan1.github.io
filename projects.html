@@ -29,19 +29,53 @@
             </nav>
         </div>
 
+        <div class="jumbotron jumbotron-fluid animated fadeIn">
+            <div class="container">
+                <h1 class="display-3">Projects</h1>
+                <p class="lead">These are current and past projects I have worked on</p>
+                <hr class="my-2">
+            </div>
+        </div>
+
         <div class="container" >
-            <div class="card projectCard animated fadeIn">
-                <div class="card-body">
-                    <h3 class="card-title">Introduction</h4>
-                    <p class="card-text">My name is Christopher Chan.
-                                        I am a Software Engineer who currently lives in Dallas, TX. I am interested in learning new technologies. 
-                                        The topics I am currently interested in is Web Development, AWS Cloud, Virtual Reality, and Mobile Development.
-                                        My main language I have been working in is Java. I have experience with other Object-Oriented-Programming languages
-                                        such as C/C++ and Python. This website serves as a place to document my journey in creating and learning new skills.
-                                        </p>
+            <div class="card-deck animated fadeIn">
+                <div class="card shadow">
+                    <img class="card-img-top" src="holder.js/100x180/" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Portfolio Website</h4>
+                        <p class="card-text">This website is my portfolio website and it is also one of my projects</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#webProjectModal">Info</button>
+                    </div>
+                </div>
+                <div class="card shadow">
+                    <img class="card-img-top" src="holder.js/100x180/" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">More to come</h4>
+                        <p class="card-text"></p>
+                    </div>
                 </div>
             </div>
         </div>
+
+       <div class="modal" id="webProjectModal">
+            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Portfolio Website</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h5>Description</h5>
+                        This website is my portfolio website and it is also one of my projects.
+                        It will never be complete and will continue to grow as my skills develop.
+                        It is hosted currently on Github pages. Currently the tools used for the website is 
+                        Github, Bootstrap 4, and Animate.css. 
+                    </div>
+                </div>
+            </div>
+       </div>
 
         <!--Scripts are placed in order for Bootstrap-->  
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

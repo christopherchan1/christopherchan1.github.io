@@ -1391,7 +1391,7 @@ a.navbar-brand, .card.projectCard{
     animation-delay: 2s;
 }
 
-div.container{
+div.container, .card-deck{
     animation-delay: 3s;
 }
 
