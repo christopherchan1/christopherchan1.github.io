@@ -24,3 +24,7 @@ div nav button.navbar-toggler.hidden-lg-up{
 .modal-description, .modal-tools-description{
     padding-bottom: 20px;
 }
+
+body{
+    padding-bottom: 20px;
+}
