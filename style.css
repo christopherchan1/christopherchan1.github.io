@@ -20,3 +20,7 @@ div nav button.navbar-toggler.hidden-lg-up{
     background-color: white;
     padding-top: 5em;
 }
+
+.modal-description, .modal-tools-description{
+    padding-bottom: 20px;
+}
